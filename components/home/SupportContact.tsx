@@ -106,7 +106,7 @@ const SupportContact: React.FC = () => {
             </div>
             <div>
             <p className="text-sm opacity-75">Email</p>
-            <p className="font-medium">support@wemace.com</p>
+            <a href="mailto:support@wemace.com" className="font-medium">support@wemace.com</a>
             </div>
           </div>
           <div className="flex items-center space-x-4 text-white">
@@ -115,7 +115,7 @@ const SupportContact: React.FC = () => {
             </div>
             <div>
             <p className="text-sm opacity-75">Phone</p>
-            <p className="font-medium">+91 123 456 7890</p>
+            <a href='tel:+916374900460' className="font-medium">+91 6374 900 460</a>
             </div>
           </div>
           <div className="flex items-center space-x-4 text-white">
@@ -124,7 +124,7 @@ const SupportContact: React.FC = () => {
             </div>
             <div>
             <p className="text-sm opacity-75">Location</p>
-            <p className="font-medium">Bangalore, Karnataka, India</p>
+            <p className="font-medium">Chennai, Tamil Nadu, India</p>
             </div>
           </div>
           </div>
